@@ -4,6 +4,7 @@ let geoText = document.getElementById("geoInfo");
 let geoText2 = document.getElementById("geoInfo2");
 let cloudInfo = document.getElementById('cloudInfo');
 let cloudInfo2 = document.getElementById('cloudInfo2');
+
 document.getElementById("depSubmit").addEventListener('click', getDeparture);
 document.getElementById("desSubmit").addEventListener('click', getDestination);
 document.getElementById('geoForm').addEventListener('submit', getDeparture);
