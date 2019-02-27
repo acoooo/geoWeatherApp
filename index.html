@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Geo app</title>
+    <link rel="stylesheet" href="semantic.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <div class="ui grid">
+        <div class="four wide column"></div>
+        <div class="four wide column">
+          <div class="ui column grid">
+            <div class="row">
+              <div class="column">
+                <form id="geoForm" class="ui form">
+                  <div class="field">
+                    <label>Departure</label>
+                    <input id="loc1" type="text" name="departure" placeholder="Enter city name or cordinates here">
+                  </div>
+                  <div class="ui black button" id='depSubmit'>
+                    Submit
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div id='errors'></div>
+            <div class="row">
+              <div class="column">
+                <div class="ui list" id='geoInfo'>
+
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column">
+                <div class="ui grid" id='cloudInfo'>
+
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+        <div class="four wide column">
+          <div class="ui column grid">
+            <div class="row">
+              <div class="column">
+                <form id="geoForm2" class="ui form">
+                  <div class="field">
+                    <label>Destination</label>
+                    <input id="loc2" type="text" name="destination" placeholder="Enter city name or cordinates here">
+                  </div>
+                  <div class="ui black button" id='desSubmit'>
+                    Submit
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div id='errors2'></div>
+            <div class="row">
+              <div class="column ">
+                <div class="ui list" id='geoInfo2'>
+
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column">
+                <div class="ui grid" id='cloudInfo2'> 
+
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+        <div class="four wide column"></div>
+      </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

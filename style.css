@@ -1,0 +1,69 @@
+.fog {
+    background-image: url('img/fog.png');
+    width: 80px;
+    height: 300px;
+    margin: 2px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: dodgerblue;
+}
+
+.clear {
+    background-image: url('img/clear.png');
+    width: 80px;
+    height: 300px;
+    margin: 2px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: dodgerblue;
+}
+
+
+.low {
+    background-image: url('img/low.png');
+    width: 80px;
+    height: 300px;
+    margin: 2px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: dodgerblue;
+}
+
+
+.medium {
+    background-image: url('img/medium.png');
+    width: 80px;
+    height: 300px;
+    margin: 2px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: dodgerblue;
+}
+
+
+.high {
+    background-image: url('img/high.png');
+    width: 80px;
+    height: 300px;
+    margin: 2px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: dodgerblue;
+}
+
+
+.sun {
+    background-image: url('img/sun.png');
+    width: 80px;
+    height: 300px;
+    margin: 2px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: dodgerblue;
+}
